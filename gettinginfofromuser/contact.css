@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    height: auto;
+}
+
+
+body,
+html {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.container {
+    padding: 2em;
+
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.top-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+}
+
+.top-nav-links {
+    display: flex;
+    gap: 2em;
+}
+
+.top-nav-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 300;
+
+}
+
+.top-nav-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.top-nav-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.top-nav-right button {
+    border: 3px solid black;
+    box-shadow: 5px 2px 2px black;
+    background-color: rgb(250, 234, 95);
+    width: 150px;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.contact-us {
+    display:inline-block;
+    align-items:center ;
+    border-radius: 20px;
+    background-color: rgb(250, 234, 95);
+    border: 5px solid black;
+    box-shadow: 5px 2px 2px black;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    text-align: center;
+    padding-left: 10px;
+   
+}
+
+.form-box {
+    
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    display: block;
+    align-items:center;
+
+}
+
+.lead {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+
+.form {
+    padding: 30px;
+    font-family: 'Monserrat';
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    display: block;
+    align-items: center;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.form-control input {
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.submit {
+    background-color: #1a131e;
+    box-shadow: 0 2px 5px black;
+    border-radius: 4px;
+    color: #edd0d0;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.firstName {
+    margin-bottom: 20px;
+
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.priority {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(43, 39, 39);
+    color: white;
+    text-align: center;
+    margin-left: 3em;
+  }

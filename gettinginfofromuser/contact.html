@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Happy Daze Vape and Smoke</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-nav">
+        <div class="top-nav-left">
+          <img
+            src="./assets/happydazelogo636_low(1).png"
+            alt="Happy Daze Logo"
+          />
+          <div class="top-nav-links">
+            <a href="./index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Locations</a>
+            <a href="#">Shop</a>
+            <a href="#">Our Team</a>
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div class="top-nav-right">
+          <button>Log in</button>
+        </div>
+      </div>
+    </div>
+    <section class="contact-us">
+        <div class="lead">
+           <h2>Contact us!</h2> 
+        </div>
+      <div class="form-box">
+        <form>
+          <div class="formControl">
+            <label for="firstName">First Name:</label><br />
+            <input type="text" class="firstName" name="firstName" required />
+          </div>
+          <div class="formControl">
+            <label for="email">Email Address:</label><br />
+            <input
+              type="email"
+              class="email"
+              placeholder="john.doe@email.com"
+              name="email"
+              required
+            />
+          </div>
+          <label for="priority">Priority</label>
+          <select name="priority" class="priority">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+          <div class="formControl">
+            <label for="feedback">Leave a Message for our Team:</label>
+            <textarea id="message" required name="message" rows="4" cols="40">
+            </textarea>
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+        <p>&copy Happy Daze Smoke and Vape</p>
+    </footer> 
+  </body>
+</html>
